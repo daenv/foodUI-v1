@@ -12,6 +12,7 @@ import { ProductDetailComponent } from './components/pages/product-detail/produc
 import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
 import { RegisterComponent } from './components/pages/register/register.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
+import { LoginComponent } from './components/pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { NotFoundComponent } from './components/partials/not-found/not-found.com
     CartPageComponent,
     RegisterComponent,
     NotFoundComponent,
+    LoginComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
